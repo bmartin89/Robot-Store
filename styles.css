@@ -1,0 +1,64 @@
+html{
+  background-color: white;
+  color: black;
+}
+
+#headername {
+  font-size: 200px;
+  position: absolute;
+  top: 0px;
+}
+
+.searchbox {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+}
+
+nav {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  float: left;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding; 0;
+}
+
+.navlink {
+  float: left;
+  display: block;
+  padding: 8px;
+  border-right: 1px solid #bbb;
+  color: white;
+}
+
+.navlink:hover {
+  color: blue;
+}
+
+.navlink.active {
+  background-color: #f44242;
+}
+
+#welcometext {
+  column-count: 2;
+}
+
+fieldset {
+  border: none;
+}
+
+footer {
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
