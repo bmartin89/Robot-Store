@@ -7,6 +7,7 @@ html{
   font-size: 200px;
   position: absolute;
   top: 0px;
+  color: red;
 }
 
 .searchbox {
@@ -53,6 +54,7 @@ nav ul {
 
 fieldset {
   border: none;
+  margin-top: 50px;
 }
 
 footer {
